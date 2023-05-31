@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    fileXX: "%d %p %c{1.} [%t] %m%n"
+    file: "%d %m%n"
+  file:
+    name: app.log
